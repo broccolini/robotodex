@@ -121,7 +121,7 @@ header h3 {
 
 #main-content img {
   max-width: 100%;
-  border: 2px dotted #9DDCFF;
+  border: 1px solid #ccc;
   margin-bottom: 30px;
 }
 
@@ -248,13 +248,6 @@ form {
   padding-top: 20px;
 } 
 
-#main-content h1:before {
-  content: "/";
-  color: #9ddcff;
-  padding-right: 0.3em;
-  margin-left: -0.7em;
-}
-
 #main-content h2 {
   font-family: 'Merriweather', 'Georgia', serif; 
   font-size: 30px;
@@ -262,12 +255,6 @@ form {
   margin-bottom: 8px;
   padding-top: 14px;
   color: #474747;
-} 
-#main-content h2:before {
-  content: "//";
-  color: #9ddcff;
-  padding-right: 0.3em;
-  margin-left: -1.2em;
 }
 
 #main-content h3 {
@@ -277,14 +264,7 @@ form {
   padding-top: 24px;
   margin-bottom: 8px;
   color: #474747;
-} 
- 
-/*#main-content h3:before {
-  content: "///";
-  color: #9ddcff;
-  padding-right: 0.3em;
-  margin-left: -1.7em;
-}*/
+}
 
 #main-content h4 {
   font-family: 'Merriweather', 'Georgia', serif; 
@@ -293,35 +273,16 @@ form {
   color: #474747;
 } 
 
-h4:before {
-  content: "////";
-  color: #9ddcff;
-  padding-right: 0.3em;
-  margin-left: -2.8em;
-}
-
 #main-content h5 {
   font-family: 'Merriweather', 'Georgia', serif; 
   font-size: 14px;
   color: #474747;
 } 
-h5:before {
-  content: "/////";
-  color: #9ddcff;
-  padding-right: 0.3em;
-  margin-left: -3.2em;
-}
 
 #main-content h6 {
   font-family: 'Merriweather', 'Georgia', serif; 
   font-size: .8em;
   color: #474747;
-} 
-h6:before {
-  content: "//////";
-  color: #9ddcff;
-  padding-right: 0.3em;
-  margin-left: -3.7em;
 }
 
 p {
@@ -359,7 +320,7 @@ dl dd {
 }
 
 footer {
-  background: transparent url('../images/hr.png') 0 0 no-repeat;
+  background: #f2f2f2;
   margin-top: 40px;
   padding-top: 20px;
   padding-bottom: 30px;
@@ -453,7 +414,7 @@ footer a:hover {
     text-align: center;
     font-size: 13px;
     line-height: 1;
-    background-color: #9ddcff;
+    background-color: #ccc;
     color: #2879d0;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;                     
