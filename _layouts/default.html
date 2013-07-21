@@ -13,8 +13,8 @@
             {% if post.excerpt_tag %}
               {{ post.excerpt_tag | markdownify }}
             {% else %}
-              {{ post.content }}
-              <a href="{{ post.url }}">{{ post.title }}</a>
+              <a href="{{ post.url }}">{{ post.content }}
+              <h3>{{ post.title }}</a></h3>
             {% endif %}
           {% endfor %}
         </section>
