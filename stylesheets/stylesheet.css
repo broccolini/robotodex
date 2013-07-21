@@ -122,7 +122,6 @@ header h3 {
 #main-content img {
   max-width: 100%;
   border: 1px solid #ccc;
-  margin-bottom: 30px;
 }
 
 aside#sidebar {
@@ -261,8 +260,7 @@ form {
   font-family: 'Merriweather', 'Georgia', serif; 
   font-size: 24px;
   font-weight: bold;
-  padding-top: 24px;
-  margin-bottom: 8px;
+  margin-bottom: 50px;
   color: #474747;
 }
 
