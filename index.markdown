@@ -1,6 +1,6 @@
 ---
 layout: default
-title:  "Diana Mounter"
+title:  "Robotodex"
 ---
 
 Robots go here.
