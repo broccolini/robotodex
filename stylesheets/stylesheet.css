@@ -103,6 +103,10 @@ header h3 {
   font-size: 16px;
 }
 
+span.mrpointy{
+  font-size: 24px;
+}
+
 .inner {
   position: relative;
   width: 100%;

@@ -3,4 +3,4 @@ layout: default
 title:  "Robotodex"
 ---
 
-Robots go here.
+Robots go here <span class="mrpointy">☟</span>
