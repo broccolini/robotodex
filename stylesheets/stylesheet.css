@@ -298,9 +298,8 @@ dl dd {
 footer {
   background: #f2f2f2;
   margin-top: 40px;
-  padding-top: 20px;
+  padding: 40px 5% 0;
   padding-bottom: 30px;
-  font-size: 13px;
   color: #aaa;
 }
 
@@ -309,6 +308,10 @@ footer a {
 }
 footer a:hover {
   color: #444;
+}
+
+footer p {
+  text-align: center;
 }
 
 /* MISC */
