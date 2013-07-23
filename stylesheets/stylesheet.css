@@ -138,6 +138,18 @@ span.mrpointy{
   margin-right: 34px;
 }
 
+.detail h1 {
+  font-size: 30px;
+}
+
+.detail span {
+  font-size: 20px;
+}
+
+#detail #content-wrapper {
+  padding-top: 10px;
+}
+
 code, pre {
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
   color: #222;
