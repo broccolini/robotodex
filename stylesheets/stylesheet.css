@@ -109,8 +109,7 @@ span.mrpointy{
 
 .inner {
   position: relative;
-  width: 100%;
-  margin: 0 5%;
+  margin: 0 0 0 5%;
 }
 
 .inner p {
@@ -122,13 +121,8 @@ span.mrpointy{
   padding: 30px 30px 30px 0;
 }
 
-#main-content {
-  width: 100%;
-  float: left;
-}
-
 #main-content img {
-  max-width: 100%;
+  width: 100%;
   border: 6px solid #EEF0F0;
 }
 
