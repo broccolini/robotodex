@@ -126,6 +126,10 @@ span.mrpointy{
   border: 6px solid #EEF0F0;
 }
 
+#detail #main-content img {
+  width: auto;
+}
+
 .shell {
   width: 360px;
   float: left;
