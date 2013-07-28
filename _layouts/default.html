@@ -9,17 +9,7 @@
       <div class="inner clearfix">
         <section id="main-content">
           {{ content }}
-          <div class="robots">
-          {% for post in site.posts %}
-            {% if post.excerpt_tag %}
-              {{ post.excerpt_tag | markdownify }}
-            {% else %}
-              <div class="shell">
-              <a href="{{ post.url }}">{{ post.content }}</a>
-              </div>
-            {% endif %}
-          {% endfor %}
-          </div><!--  End shell  -->
+          
         </section>
 
       </div>
