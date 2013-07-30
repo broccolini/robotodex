@@ -55,7 +55,6 @@ html {
 }
 
 body {
-  background-color: #f2f2f2;
   font-size: 16px;
   line-height: 1.6; 
   background: #fff;
@@ -108,7 +107,7 @@ header h3 {
   font-size: 16px;
 }
 
-span.mrpointy{
+span.mrpointy {
   font-size: 22px;
 }
 
@@ -134,12 +133,6 @@ span.mrpointy{
 #detail #main-content img {
   width: auto;
 }
-
-/*.robot a {
-  width: 360px;
-  float: left;
-  margin-right: 34px;
-}*/
 
 .shell {
   width: 360px;
@@ -194,37 +187,6 @@ ul, ol, dl {
 
 
 /* COMMON STYLES */
-
-hr {
-  height: 1px;
-  line-height: 1px;
-  margin-top: 1em;
-  padding-bottom: 1em;
-  border: none;
-  background: transparent url('../images/hr.png') 0 0 no-repeat;
-}
-
-table {
-  width: 100%;
-  border: 1px solid #ebebeb;
-}
-
-th {
-  font-weight: 500;
-}
-
-td {
-  border: 1px solid #ebebeb;
-  text-align: center; 
-  font-weight: 300;
-}
-
-form {
-  background: #f2f2f2;
-  padding: 20px;
-  
-}
-
 
 /* GENERAL ELEMENT TYPE STYLES */
 
@@ -283,28 +245,6 @@ a {
 
 p a {
   font-weight: 800;
-}
-
-blockquote {
-  font-size: 1.6em;
-  border-left: 10px solid #e9e9e9;
-  margin-bottom: 20px;
-  padding: 0 0 0 30px;
-}
-
-ul li {
-  list-style: disc inside;
-  padding-left: 20px;
-}
-
-ol li {
-  list-style: decimal inside;
-  padding-left: 3px;
-}
-
-dl dd {
-  font-style: italic;
-  font-weight: 100;
 }
 
 footer {
@@ -421,21 +361,25 @@ p.made-by {
     font-size: 13px;
     display: inline;
   }
-  #main-content,
-  aside#sidebar {
+  
+  /*#main-content img {
+  width: 80%;
+  padding-right: 10px;
+}*/
+
+  .shell {
+    width: 100%;
     float: none;
-    width: 100% ! important;
   }
-  aside#sidebar {
-    background-image: none;
-    margin-top: 20px;
-    border-top: solid 1px #ddd;
-    padding: 20px 0;
-    min-height: 0;
-  }
-  aside#sidebar a.button {
-    display: none;
-  }
+
+  #detail #main-content img {
+  width: 100%;
+}
+
+  footer p {
+  width: auto;
+}
+
   #main-content h1:before,
   #main-content h2:before,
   #main-content h3:before,
