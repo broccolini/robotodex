@@ -146,8 +146,10 @@ span.mrpointy{
   font-size: 30px;
 }
 
-.detail span {
+.detail span.backlink {
   font-size: 20px;
+  position: relative;
+  top: .1em;
 }
 
 #detail #content-wrapper {
