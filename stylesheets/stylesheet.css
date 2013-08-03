@@ -252,7 +252,7 @@ p.made-by {
     font-size: 30px;
   }
   #main-content {
-    width: 490px;
+    width: 720px;
   }
   #main-content h1:before,
   #main-content h2:before,
@@ -260,6 +260,12 @@ p.made-by {
     content: none;
     padding-right: 0;
     margin-left: 0;
+  }
+   .shell {
+  width: 320px;
+  }
+  #detail #main-content img {
+  width: 684px;
   }
 }
 
