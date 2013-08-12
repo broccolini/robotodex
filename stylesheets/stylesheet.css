@@ -263,6 +263,7 @@ p.made-by {
   }
    .shell {
   width: 320px;
+  clear: both;
   }
   #detail #main-content img {
   width: 684px;
