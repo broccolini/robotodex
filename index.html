@@ -6,13 +6,9 @@ title:  "Robotodex"
 Robots go here <span class="mrpointy">☟</span>
 
 <div class="robots">
-  {% for post in site.posts %}
-    {% if post.excerpt_tag %}
-      {{ post.excerpt_tag | markdownify }}
-    {% else %}
-      <div class="shell">
-      <a href="{{ post.url }}">{{ post.content }}</a>
-      </div>
-    {% endif %}
-  {% endfor %}
-</div><!--  End robots  -->
+    {% for post in site.posts %}
+	<div class="shell">
+        <a href="{{ post.url }}">{{ post.content }}</a>
+    </div>  
+    {% endfor %}
+</div>
